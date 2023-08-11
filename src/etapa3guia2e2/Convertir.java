@@ -93,7 +93,7 @@ public class Convertir extends javax.swing.JFrame {
 
         try {
             if (jTnum.getText().isEmpty()) {
-                JOptionPane.showMessageDialog(this, "El campo está vacio");
+                JOptionPane.showMessageDialog(this, "El campo está vacio-ingresar un numero");
                 jTnum.setText("");
             } else {
                 double Celsius = Double.parseDouble(jTnum.getText());
